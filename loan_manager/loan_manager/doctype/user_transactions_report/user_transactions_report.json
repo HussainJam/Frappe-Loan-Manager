@@ -1,0 +1,8 @@
+{
+    "doctype": "Report",
+    "module": "Your Module Name",
+    "report_name": "User Transactions Report",
+    "is_query_report": 1,
+    "report_type": "Script Report",
+    "script_report": "loan_manager.report.user_transactions_report.user_transactions_report"
+}

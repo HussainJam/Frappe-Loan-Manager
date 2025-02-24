@@ -69,6 +69,10 @@
 //     frm.refresh_field("amount_due_table");
 // }
 
+
+
+
+
 frappe.ui.form.on('Transaction', {
     amount: function (frm) {
         update_amount_due_table(frm);
@@ -128,3 +132,5 @@ function update_amount_due_table(frm) {
 
     frm.refresh_field("amount_due_table");
 }
+
+

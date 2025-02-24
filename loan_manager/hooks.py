@@ -4,7 +4,17 @@ app_publisher = "Jamal"
 app_description = "Worklike Splitwise "
 app_email = "jamal.se17@gmail.com"
 app_license = "mit"
-app_include_js = ["/loan_manager/js/transaction_custom.js"]
+
+
+scheduler_events = {
+    "cron": {
+        "0 * * * *": [  
+            "loan_manager.cron_jobs.fetch_transactions"
+        ]
+    }
+}
+
+
 
 # Apps
 # ------------------
