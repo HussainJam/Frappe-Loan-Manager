@@ -4,6 +4,7 @@ app_publisher = "Jamal"
 app_description = "Worklike Splitwise "
 app_email = "jamal.se17@gmail.com"
 app_license = "mit"
+app_include_js = ["/loan_manager/js/transaction_custom.js"]
 
 # Apps
 # ------------------
