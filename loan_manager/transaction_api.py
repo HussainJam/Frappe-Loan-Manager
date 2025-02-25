@@ -1,35 +1,4 @@
-# import requests
-# import frappe
-
-# @frappe.whitelist()
-# def fetch_data():
-#     url = "http://192.168.0.73:3000/"
-#     try:
-#         response = requests.get(url)
-#         response.raise_for_status()  # Raises an error for HTTP codes 4xx/5xx
-
-#         data = response.json()
-#         save_transactions(data)
-#     except requests.exceptions.RequestException as e:
-#         frappe.log_error(f"Failed to fetch data: {str(e)}", "Fetch Data Error")
-
-# def save_transactions(data):
-#     for item in data:
-#         try:
-#             transaction = frappe.get_doc({
-#                 "doctype": "Transaction",
-#                 "date": item.get("date"),
-#                 "description": item.get("description"),
-#                 "amount": item.get("amount"),
-#                 "paid_by": item.get("paid_by"),
-#                 "users": item.get("users"),
-#                 # Add other fields as necessary
-#             })
-#             transaction.insert(ignore_permissions=True)
-#         except Exception as e:
-#             frappe.log_error(f"Failed to save transaction: {str(e)}", "Save Transaction Error")
-
-
+# didnot work , need to modify 
 import frappe
 import requests
 

@@ -1,6 +1,5 @@
 frappe.query_reports["User Transactions Report"] = {
 
-
     
     "formatter": function(value, row, column, data, default_formatter) {
         value = default_formatter(value, row, column, data);

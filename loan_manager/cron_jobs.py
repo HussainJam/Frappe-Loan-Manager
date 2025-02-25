@@ -1,4 +1,4 @@
-# In your Transaction doctype Python file (transaction.py)
+# Copy fron Chatgpt , but didnot work properly 
 import requests
 import frappe
 
@@ -8,9 +8,8 @@ def fetch_data_from_api():
     response = requests.get(url)
 
     if response.status_code == 200:
-        data = response.json()  # Assuming the API returns JSON
+        data = response.json()  
         for item in data:
-            # Create or update the transaction record with the specific fields
             transaction = frappe.get_doc({
                 "doctype": "Transaction",
                 "description": item.get("description"),
@@ -18,7 +17,7 @@ def fetch_data_from_api():
                 "paid_by": item.get("paid_by"),
                
             })
-            transaction.insert(ignore_permissions=True)  # Use ignore_permissions if needed
+            transaction.insert(ignore_permissions=True) 
     else:
         frappe.log_error(
             f"Failed to fetch data from API: {response.status_code}",

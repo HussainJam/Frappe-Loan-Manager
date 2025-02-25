@@ -6,16 +6,6 @@ app_email = "jamal.se17@gmail.com"
 app_license = "mit"
 
 
-scheduler_events = {
-    "cron": {
-        "* * * * *": [
-            "loan_manager.loan_manager.doctype.transaction.fetch_data_from_api"
-        ]
-    }
-}
-
-
-
 # Apps
 # ------------------
 
