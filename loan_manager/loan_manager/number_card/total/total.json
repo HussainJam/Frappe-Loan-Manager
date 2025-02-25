@@ -1,0 +1,23 @@
+{
+ "color": "#CB2929",
+ "creation": "2025-02-25 17:16:03.731560",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{\"from_date\":\"2025-01-28\",\"to_date\":\"2025-02-28\",\"User\":\"ahmed@penieltech.com\"}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "Total",
+ "modified": "2025-02-25 17:22:38.745982",
+ "modified_by": "Administrator",
+ "module": "Loan Manager",
+ "name": "Total",
+ "owner": "Administrator",
+ "report_field": "amount",
+ "report_function": "Sum",
+ "report_name": "User Transactions Report",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

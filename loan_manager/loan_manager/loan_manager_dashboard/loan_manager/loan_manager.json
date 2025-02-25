@@ -1,7 +1,7 @@
 {
  "cards": [
   {
-   "card": "Total Payable"
+   "card": "Total"
   },
   {
    "card": "Paid"
@@ -10,7 +10,7 @@
    "card": "Transactions"
   }
  ],
- "chart_options": "{\n  \"labels\": [\"1000\", \"2000\", \"1500\", \"3000\", \"2500\"],\n  \"colors\": [\"#0060B4\"]\n}\n",
+ "chart_options": "{\n  \"colors\": [\"#0060B4\"]\n}\n",
  "charts": [
   {
    "chart": "Loan Manager Chart",
@@ -24,7 +24,7 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "modified": "2025-02-25 14:23:54.265424",
+ "modified": "2025-02-25 17:23:27.051302",
  "modified_by": "Administrator",
  "module": "Loan Manager",
  "name": "Loan Manager",

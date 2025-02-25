@@ -1,0 +1,33 @@
+{
+ "chart_name": "Loan Manager Chart-1",
+ "chart_type": "Report",
+ "creation": "2025-02-25 17:12:46.606591",
+ "custom_options": "{\"x_field\": \"user_name\", \"chart_type\": \"Line\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"y_field\": \"amount\", \"color\": \"#449CF0\", \"name\": \"row 1\"}], \"y_fields\": [\"amount\"], \"colors\": [null]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{\"from_date\":\"2025-01-28\",\"to_date\":\"2025-02-28\",\"User\":\"ahmed@penieltech.com\"}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2025-02-25 17:16:42.401157",
+ "modified_by": "Administrator",
+ "module": "Loan Manager",
+ "name": "Loan Manager Chart-1",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "User Transactions Report",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Line",
+ "use_report_chart": 0,
+ "x_field": "date",
+ "y_axis": [
+  {
+   "color": "#449CF0",
+   "y_field": "amount"
+  }
+ ]
+}
