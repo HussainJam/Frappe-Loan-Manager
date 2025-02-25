@@ -15,3 +15,5 @@ frappe.query_reports["User Transactions Report"] = {
         return value;
     }
 };
+
+

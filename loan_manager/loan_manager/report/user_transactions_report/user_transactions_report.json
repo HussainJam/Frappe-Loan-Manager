@@ -1,5 +1,5 @@
 {
- "add_total_row": 0,
+ "add_total_row": 1,
  "columns": [
   {
    "fieldname": "user_name",
@@ -58,7 +58,7 @@
  "is_standard": "Yes",
  "json": "{}",
  "letterhead": null,
- "modified": "2025-02-25 01:47:46.304090",
+ "modified": "2025-02-25 08:37:00.643302",
  "modified_by": "Administrator",
  "module": "Loan Manager",
  "name": "User Transactions Report",

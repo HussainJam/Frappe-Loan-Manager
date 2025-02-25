@@ -1,6 +1,7 @@
 {
  "actions": [],
- "autoname": "autoincrement",
+ "allow_import": 1,
+ "autoname": "format:{user_name}-{###}",
  "creation": "2025-02-24 10:34:54.656618",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -31,6 +32,7 @@
   {
    "fieldname": "amount",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Amount",
    "reqd": 1
   },
@@ -66,11 +68,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-25 00:49:01.880695",
+ "modified": "2025-02-25 13:11:14.659484",
  "modified_by": "Administrator",
  "module": "Loan Manager",
  "name": "Transaction",
- "naming_rule": "Autoincrement",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

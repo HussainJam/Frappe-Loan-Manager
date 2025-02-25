@@ -1,0 +1,29 @@
+{
+ "cards": [
+  {
+   "card": "Total Payable"
+  },
+  {
+   "card": "Paid"
+  }
+ ],
+ "chart_options": "{\n  \"labels\": [\"1000\", \"2000\", \"1500\", \"3000\", \"2500\"],\n  \"colors\": [\"#0060B4\"]\n}\n",
+ "charts": [
+  {
+   "chart": "Loan Manager Chart",
+   "width": "Full"
+  }
+ ],
+ "creation": "2025-02-24 10:29:13.146090",
+ "dashboard_name": "Loan Manager",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-02-25 09:52:25.096683",
+ "modified_by": "Administrator",
+ "module": "Loan Manager",
+ "name": "Loan Manager",
+ "owner": "Administrator"
+}

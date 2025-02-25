@@ -8,8 +8,8 @@ app_license = "mit"
 
 scheduler_events = {
     "cron": {
-        "0 * * * *": [  
-            "loan_manager.cron_jobs.fetch_transactions"
+        "* * * * *": [
+            "loan_manager.loan_manager.doctype.transaction.fetch_data_from_api"
         ]
     }
 }
